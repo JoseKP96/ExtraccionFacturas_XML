@@ -1,0 +1,5 @@
+
+{
+  "name": "Invoice to XML Converter",
+  "description": "An application that uses AI to extract data from uploaded invoice files (PDF, DOCX, XLSX, JPG, PNG) and converts it into a structured XML format. Users can upload an invoice, and the app will generate and display the corresponding XML data, ready to be copied or downloaded."
+}

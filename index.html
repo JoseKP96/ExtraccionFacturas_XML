@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-ax" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice to XML Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+        .font-mono {
+            font-family: 'Roboto Mono', monospace;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-300">
+    <div id="root"></div>
+    <script type="importmap">
+    {
+        "imports": {
+            "react": "https://esm.sh/react@18.3.1",
+            "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+            "@google/genai": "https://esm.sh/@google/genai"
+        }
+    }
+    </script>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
